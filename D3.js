@@ -82,9 +82,34 @@
   Alla fine mostra il risultato in console.
 */
 
+//Con Array
 // let numbers = [35, 10, 50];
 // let order = numbers.sort().reverse();
 // console.log("Final result: ", order);
+
+//Senza Array
+// let numero1 = 32;
+// let numero2 = 48;
+// let numero3 = 2;
+// if (numero1 > numero2 && numero1 > numero2) {
+//   if (numero2 > numero3) {
+//     console.log(numero1, numero2, numero3);
+//   } else {
+//     console.log(numero1, numero3, numero2);
+//   }
+// }  else if (numero2 > numero1 && numero2 > numero3) {
+// if (numero1 > numero3) {
+//   console.log(numero2, numero1, numero3);
+// } else {
+//   console.log(numero2, numero3, numero1)
+// }
+// } else {
+//   if (numero1 > numero2) {
+//     console.log(numero3, numero1, numero2);
+//   } else {
+//     console.log(numero3, numero2, numero1);
+//   }
+// }
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
@@ -106,10 +131,10 @@
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
+  let val = 11
+  if (val >= 5 && val < 10) {
       console.log("Meno di 10");
-    } else if (val < 5) {
+    } else if (val >= 5) {
       console.log("Meno di 5");
     } else {
       console.log("Uguale a 10 o maggiore");
@@ -123,33 +148,37 @@
 */
 
 // const me = {
-//   name: 'John',
-//   lastName: 'Doe',
-//   skills: ['javascript', 'html', 'css'],
-// }
+//   name: "John",
+//   lastName: "Doe",
+//   skills: ["javascript", "html", "css"],
+// };
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// me.city = "Toronto";
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// delete lastname;
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// me.skills.pop();
+// console.log(me);
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// let emptyArray = [];
+// emptyArray.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+// console.log(emptyArray);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// emptyArray.splice(9, 1, 100);
+// console.log(emptyArray);
